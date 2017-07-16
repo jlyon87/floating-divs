@@ -1,0 +1,25 @@
+/* force body to the bounds of the viewport */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set's container width relative to viewport and centers */
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Each Row `clears` the float left properties so we can begin a new line/row */
+.row {
+  clear: left;
+}
+
+/* Each box gets color, border, float left and some basic margin/padding */
+.box {
+  background-color: yellow;
+  border: 1px solid black;
+  float: left;
+  margin: 2% 2% 2% 2%;
+  padding: 3% 3% 3% 3%;
+}
