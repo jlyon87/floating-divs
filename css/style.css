@@ -6,7 +6,7 @@ body {
 
 /* Set's container width relative to viewport and centers */
 .container {
-	width: 60%;
+	width: 1024px;
 	margin: 0 auto;
 }
 
